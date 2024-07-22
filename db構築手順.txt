@@ -1,0 +1,30 @@
+
+
+①必要なファイルを作成する
+ - sql_appディレクトリ
+ - __init__.py
+ - database.py(DBの設定を定義する)
+ - model.py(DBの構造を定義する)
+ - schemas.py
+ - crud.py
+
+
+②
+
+③
+
+
+④SQLスクリプトを実行して、事前データ投入
+seed.sql
+sqlite3 test.db < seed.sqlを実行
+
+⑤
+
+
+
+
+▪️構築したDBを確認する
+SQLiteのコマンドラインツールを使用して確認する
+sqlite3 test.db
+
+

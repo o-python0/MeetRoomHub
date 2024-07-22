@@ -1,0 +1,29 @@
+
+
+
+
+
+cd frontend/my-app && npm start
+
+
+
+
+
+
+
+▪️デベロッパーツール
+option + command + i
+
+
+
+
+▪️仮想環境関連コマンド
+python3 -m venv 仮想環境名(env)
+
+source myenv/bin/activate
+
+deactivate
+
+
+▪️FastAPI関連
+uvicorn main:app --reload
